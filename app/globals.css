@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+.rounded-lg {
+  border-radius: 10px;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent font-bold; /* Added font-bold */
+    background-image: linear-gradient(
+      to right,
+      #cbacf9,
+      #a78bfa,
+      #7c3aed
+    ); /* More vibrant purple gradient */
+  }
+}
+
+@layer utilities {
+  .text-gradient2 {
+    @apply bg-clip-text text-transparent font-bold; /* Added font-bold */
+    background-image: linear-gradient(
+      to right,
+      #cbacf9,
+      #a78bfa,
+      #824fd8
+    ); /* More vibrant purple gradient */
+  }
+}
+
+@layer utilities {
+  .heading {
+    @apply font-bold text-4xl md:text-5xl text-center;
+  }
+}

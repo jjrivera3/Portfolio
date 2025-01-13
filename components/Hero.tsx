@@ -25,7 +25,7 @@ const Hero = () => {
       <div className="absolute inset-0 dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black/[0.2] [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
 
       {/* Main Content */}
-      <div className="z-10 flex flex-col items-center text-center">
+      <div className="z-10 flex flex-col items-center justify-center text-center h-full">
         <h2 className="uppercase tracking-widest text-sm text-blue-100">
           Building Bridges Between Ideas and Innovation
         </h2>
@@ -48,7 +48,7 @@ const Hero = () => {
             <FaLinkedin className="text-xl text-gray-800 dark:text-gray-300" />
           </a>
           <a
-            href="https://github.com/j-rivera3"
+            href="https://github.com/jjrivera3"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 bg-foreground-muted rounded-full hover:text-purple-600"
@@ -56,7 +56,7 @@ const Hero = () => {
             <FaGithub className="text-xl text-gray-800 dark:text-gray-300" />
           </a>
           <a
-            href="mailto:#"
+            href="mailto:joseph@codewithjoe.io"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 bg-foreground-muted rounded-full hover:text-purple-600"
@@ -64,7 +64,7 @@ const Hero = () => {
             <FaEnvelope className="text-xl text-gray-800 dark:text-gray-300" />
           </a>
         </div>
-        <div className="flex items-center gap-4">
+        <div className="md:flex-row items-center justify-center gap-4 md:gap-6 w-full">
           <a href="#projects">
             <MagicButton
               title="Show My Work"
@@ -72,13 +72,13 @@ const Hero = () => {
               position="right"
             />
           </a>
-          {/* New Download CV Link */}
           <a
-            href="#"
-            className="relative inline-flex h-12 overflow-hidden rounded-xl px-7 text-sm font-semibold text-white focus:outline-none md:w-60 md:mt-10 items-center gap-2 hover:text-purple-600"
+            href="/joseph_rivera_resume.pdf"
+            download="Joseph_Rivera_Resume.pdf"
+            className="relative inline-flex items-center justify-center h-12 overflow-hidden rounded-xl px-7 text-sm font-semibold text-white focus:outline-none gap-2 hover:text-purple-600"
           >
             <FaDownload className="text-lg" />
-            Download CV
+            Download Resume
           </a>
         </div>
       </div>

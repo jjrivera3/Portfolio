@@ -7,13 +7,13 @@ import { PinContainer } from "./ui/Pin";
 const RecentProjects = () => {
   return (
     <div id="projects" className="py-20 mt-20">
-      <h1 className="heading mb-10 uppercase">
+      <h1 className="heading mb-10 uppercase mobile-header">
         A glimpse into <span className="text-purple">Recent Projects</span>
       </h1>
-      <div className="grid gap-x-4 p-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+      <div className="grid gap-6 sm:gap-y-8 p-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
         {projects.map((item) => (
           <div
-            className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw] sm:mb-20  lg:mb-12 "
+            className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw] mobile-spacing"
             key={item.id}
           >
             <PinContainer title={item.link} href={item.link} target="_blank">
@@ -40,7 +40,7 @@ const RecentProjects = () => {
               </h1>
 
               <p
-                className="lg:text-base lg:font-normal font-light text-sm "
+                className="lg:text-base lg:font-normal font-light text-sm"
                 style={{ color: "#BEC1DD", margin: "1vh 0" }}
               >
                 {item.des}

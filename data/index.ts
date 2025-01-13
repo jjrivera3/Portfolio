@@ -83,12 +83,12 @@ export const projects = [
       "/chart_js.svg",
       "/react_query.svg",
     ],
-    link: "https://www.heatcheckhub.com/",
+    link: "https://www.heatcheckhub.com",
   },
   {
     id: 7,
     title: "Synloco",
-    des: "SynLoco is a versatile project management platform designed for agile and traditional teams. Streamline workflows with Kanban boards, sprint planning, time tracking, reporting, and team collaboration tools—all in one intuitive, customizable solution.",
+    des: "Synloco is a versatile project management platform designed for agile and traditional teams. Streamline workflows with Kanban boards, sprint planning, time tracking, reporting, and team collaboration tools—all in one intuitive, customizable solution.",
     img: "/p7.webp",
     iconLists: [
       "/next-js.svg",
@@ -175,7 +175,22 @@ export const projects = [
       "/jquery.svg",
       "/chart_js.svg",
     ],
-    link: "/ui.apple.com",
+    link: "https://melonheadsbaseballreport.com",
+  },
+  {
+    id: 8,
+    title: "ZMC Hotels Website",
+    des: "I designed and developed the ZMC Hotels marketing website to showcase the company’s team members, latest news, and comprehensive services. Additionally, I implemented functionality to feature their portfolio of managed hotels, creating an engaging platform tailored to their brand and audience.",
+    img: "/p8.webp",
+    iconLists: [
+      "/wordpress.svg",
+      "/elementor.svg",
+      "/html.svg",
+      "/css.svg",
+      "/js.svg",
+      "/jquery.svg",
+    ],
+    link: "https://zmchotels.com",
   },
 ];
 
@@ -199,12 +214,18 @@ export const experiences = [
     companyLogo: "/yardi.jpg",
   },
   {
-    year: "May 2013 - Jun 2016",
-    role: "University of California, Santa Barbara - Bachelor of Arts, Computer Science",
+    year: "September 2013 - Jun 2016",
+    role: "University of California, Santa Barbara - Bachelor of Arts, Media Arts & Technology",
     description:
-      "Attended the University of California, Santa Barbara, where I earned a Bachelor of Arts in Computer Science. As a full-time student, I explored the intersection of creativity and technology, developing a strong foundation in media arts. In addition to my academic pursuits, I was a Division I NCAA cross country and track and field athlete, balancing a demanding athletic schedule with rigorous coursework. This experience honed my time management, teamwork, and resilience, equipping me with valuable skills applicable to both professional and personal endeavors.",
+      "Attended the University of California, Santa Barbara, where I earned a Bachelor of Arts in Media Arts & Technology. As a full-time student, I explored the intersection of creativity and technology, developing a strong foundation in media arts. In addition to my academic pursuits, I was a Division I NCAA cross country and track and field athlete, balancing a demanding athletic schedule with rigorous coursework. This experience honed my time management, teamwork, and resilience, equipping me with valuable skills applicable to both professional and personal endeavors.",
     logo: "graduationHat",
-    companyLogo: "/ucsb.jpg",
+  },
+  {
+    year: " September 2011 - June 2013",
+    role: "University of California, Davis - Computer Science & Design major",
+    description:
+      "I began my undergraduate studies at the University of California, Davis, where I focused on Computer Science and Design. During this time, I competed as a Division 1 athlete in cross-country and track, balancing the demands of rigorous academics with the commitment to collegiate athletics.",
+    logo: "graduationHat",
   },
 ];
 

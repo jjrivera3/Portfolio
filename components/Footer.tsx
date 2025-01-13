@@ -21,7 +21,7 @@ const Footer = () => {
           Let’s connect and discuss how I can contribute to your next big
           success.
         </p>
-        <a href="mailto:jjrivera824@gmail.com">
+        <a href="mailto:joseph@codewithjoe.io">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
@@ -29,11 +29,7 @@ const Footer = () => {
           />
         </a>
       </div>
-      <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-        <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2024 Joseph Rivera
-        </p>
-
+      <div className="flex mt-16 md:flex-row justify-center items-center">
         <div className="flex items-center md:gap-3 gap-6">
           <div>
             {/* Social Media Icons in Circles */}
@@ -47,7 +43,7 @@ const Footer = () => {
                 <FaLinkedin className="text-xl text-gray-800 dark:text-gray-300" />
               </a>
               <a
-                href="https://github.com/j-rivera3"
+                href="https://github.com/jjrivera3"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-foreground-muted rounded-full hover:text-purple-600"

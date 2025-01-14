@@ -200,7 +200,7 @@ export const experiences = [
     role: "Web Developer",
     company: "- COPA Innovation Laboratories",
     description:
-      "I lead the design and development of copastc.com, an innovative soccer training center website that embraces the latest advancements in soccer technology. A key aspect of my role involves driving the development of personalized athlete scorecards. Using cutting-edge software development methodologies, these scorecards leverage our advanced technology and backend databases for extensive data analysis and dynamic visualization. In addition, I am accountable for the systematic upkeep, expansion, and development of tailored websites and web applications that integrate mobile and responsive front-end design principles.",
+      "I led the design and development of copastc.com, an innovative soccer training center website that leveraged the latest advancements in soccer technology. A key aspect of my role involved creating personalized athlete scorecards using modern frontend technologies. These scorecards integrated with backend databases to enable extensive data analysis and dynamic visualization. Additionally, I ensured the systematic upkeep, expansion, and development of tailored, responsive websites that followed mobile-first design principles, delivering a seamless user experience.",
     logo: "briefcase",
     companyLogo: "/cil.jpg",
   },

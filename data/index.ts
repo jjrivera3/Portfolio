@@ -196,11 +196,11 @@ export const projects = [
 
 export const experiences = [
   {
-    year: "Sep 2019 - Aug 2024",
+    year: "Sep 2019 - Sep 2024",
     role: "Web Developer",
     company: "- COPA Innovation Laboratories",
     description:
-      "I led the design and development of copastc.com, an innovative soccer training center website that leveraged the latest advancements in soccer technology. A key aspect of my role involved creating personalized athlete scorecards using modern frontend technologies. These scorecards integrated with backend databases to enable extensive data analysis and dynamic visualization. Additionally, I ensured the systematic upkeep, expansion, and development of tailored, responsive websites that followed mobile-first design principles, delivering a seamless user experience.",
+      "I led the design and development of copastc.com, an innovative soccer training center website that leveraged the latest advancements in soccer technology. A key aspect of my role involved creating personalized athlete scorecards using modern frontend technologies. These scorecards integrated with backend databases to enable extensive data analysis and dynamic visualization. Additionally, I ensured the systematic upkeep, expansion, and development of tailored, responsive web applications that followed mobile-first design principles, delivering a seamless user experience.",
     logo: "briefcase",
     companyLogo: "/cil.jpg",
   },

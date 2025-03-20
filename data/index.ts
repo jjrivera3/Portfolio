@@ -194,7 +194,7 @@ export const projects = [
   },
   {
     id: 9,
-    title: "Smashbox Golf Website",
+    title: "Smashbox Golf",
     des: "I designed and developed the Smashbox Golf marketing website to showcase their unique golfing experience, featuring private SMASH BOX units, advanced Trackman technology, and 24/7 access. The site highlights membership options, booking features, and a dynamic environment for players to improve their game or enjoy social events.",
     img: "/p9.webp",
     iconLists: [
@@ -210,7 +210,7 @@ export const projects = [
   {
     id: 10,
     title: "Link Innovation Apartments",
-    des: "I designed and developed the Link Innovation Apartments marketing website to showcase their innovative living experience, featuring versatile floor plans, immersive 360 Virtual Tours, and interactive maps. The site highlights detailed galleries, comprehensive amenities, and intuitive scheduling and contact options, offering prospective residents a dynamic platform to explore their future home.",
+    des: "I developed the Link Innovation Apartments marketing website to showcase their innovative living experience, featuring versatile floor plans, immersive 360 Virtual Tours, and interactive maps. The site highlights detailed galleries, comprehensive amenities, and intuitive scheduling and contact options, offering prospective residents a dynamic platform to explore their future home.",
     img: "/p10.webp",
     iconLists: [
       "/bootstrap.svg",

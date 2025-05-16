@@ -192,9 +192,48 @@ export const projects = [
     ],
     link: "https://zmchotels.com",
   },
+  {
+    id: 9,
+    title: "Smashbox Golf Website",
+    des: "I designed and developed the Smashbox Golf marketing website to showcase their unique golfing experience, featuring private SMASH BOX units, advanced Trackman technology, and 24/7 access. The site highlights membership options, booking features, and a dynamic environment for players to improve their game or enjoy social events.",
+    img: "/p9.webp",
+    iconLists: [
+      "/wordpress.svg",
+      "/elementor.svg",
+      "/html.svg",
+      "/css.svg",
+      "/js.svg",
+      "/jquery.svg",
+    ],
+    link: "https://smashboxgolf.com",
+  },
+  {
+    id: 10,
+    title: "Link Innovation Apartments",
+    des: "I designed and developed the Link Innovation Apartments marketing website to showcase their innovative living experience, featuring versatile floor plans, immersive 360 Virtual Tours, and interactive maps. The site highlights detailed galleries, comprehensive amenities, and intuitive scheduling and contact options, offering prospective residents a dynamic platform to explore their future home.",
+    img: "/p10.webp",
+    iconLists: [
+      "/bootstrap.svg",
+      "/html.svg",
+      "/css.svg",
+      "/js.svg",
+      "/jquery.svg",
+    ],
+    link: "https://www.linkaptsiq.com/",
+  },
 ];
 
 export const experiences = [
+  {
+    year: "Mar 2025 - Current",
+    role: "E-Commerce UX Developer - Temp",
+    company: "- Harbor Freight",
+    description:
+      "Develop and maintain responsive, user-friendly landing and product pages that align with brand guidelines and enhance overall site usability. Collaborate with marketing and content teams to implement website updates and promotional content, ensuring a seamless and consistent user experience. Support A/B testing and personalization initiatives by contributing to dynamic content campaigns focused on improving user engagement and conversion performance.",
+    logo: "briefcase",
+    companyLogo: "/cil.jpg",
+  },
+
   {
     year: "Sep 2019 - Sep 2024",
     role: "Web Developer",

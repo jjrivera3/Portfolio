@@ -249,13 +249,20 @@ export const projects = [
 
 export const experiences = [
   {
-    year: "Mar 2025 - Current",
-    role: "E-Commerce UX Developer - Temp",
+    year: "June 2025 - Current",
+    role: "Frontend Developer - Contract",
+    company: "- Level Studios",
+    description:
+      "I build and maintain responsive product and marketing pages for high-visibility websites using HTML, CSS, JavaScript, Handlebars, SASS, and Greensock. I work closely with creative teams to turn design comps into pixel-perfect, scalable, and optimized user experiences using custom frameworks and design systems.",
+    logo: "briefcase",
+  },
+  {
+    year: "Mar 2025 - June 2025",
+    role: "E-Commerce UX Developer - Contract",
     company: "- Harbor Freight",
     description:
       "Develop and maintain responsive, user-friendly landing and product pages that align with brand guidelines and enhance overall site usability. Collaborate with marketing and content teams to implement website updates and promotional content, ensuring a seamless and consistent user experience. Support A/B testing and personalization initiatives by contributing to dynamic content campaigns focused on improving user engagement and conversion performance.",
     logo: "briefcase",
-    companyLogo: "/cil.jpg",
   },
 
   {
